@@ -18,13 +18,13 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.info-perfil {
+.foto-perfil {
     width: 140px;
-    height: 100px;
+    height: 140px;
     border-radius: 50%;
     border: 4px solid #fff;
     object-fit: cover;
-    margin-bottom: 15px;
+    margin-botton: 15px;
 }
 
 .info-aluno h1 {
@@ -147,3 +147,4 @@ body {
     color: #ccc
 
 }
+
