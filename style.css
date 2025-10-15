@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #0e153a, #3d5af1);
+    color: #fff;
+    line-height: 1.6;
+}
+
+.cabecalho-aluno {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info-perfil {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.info-aluno h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.info-aluno p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.menu-principal {
+    background: #101b5e;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.menu-principal ul {
+    list-style: none;
+}
+
+.menu-principal ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.menu-principal ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.menu-principal ul li a:hover {
+    color: #00d1ff;
+}
+
+.conteudo {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.secao {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.secao h2 {
+    color: #00d1ff;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.galeria-plataforma {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin: 20px;
+}
+
+.card-plataforma {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s, backgroud 0.3;
+}
+
+.card-plataforma:houver {
+    transform: scale(1.05);
+    background: rgba(0, 209, 255, 0.2)
+}
+
+.img-plataforma {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-plataforma h3 {
+    font-size: 18px;
+    color: #fff;
+}
+
+#metas ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#metas ul li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#metas ul li:hover {
+    background: rgba(0, 209, 255, 0.2);
+}
+
+
+.rodape {
+    text-align: center;
+    background: #0e153a;
+    padding: 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #ccc
+}
